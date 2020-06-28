@@ -1,0 +1,144 @@
+body{
+    font-family: 'Cambay', sans-serif; 
+}
+
+
+
+#name-and-logo {
+ 
+    text-transform: capitalize;
+    background-color: rgba(102, 102, 102, 0.575);
+    text-align: center;
+    font-size: 4em;
+    padding-top: 0.2em;
+}
+#missit-id{
+    color: red;
+    font-weight: bolder;
+}
+#logo-listit{
+    color: green;
+  font-weight: bolder;
+}
+
+#page-no1 {
+    display: block;
+    background-color: white;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#writtingId{
+    width: 30vw;
+}
+.fast-span {
+    color: green;
+    font-weight: 800;
+}
+
+#first-page-name-it {
+    font-weight: 700;
+    font-size: 2rem;
+    color: green;
+}
+
+#list-name-input {
+   
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px solid black;
+    
+}
+
+#first-page-input-error {
+    color: red;
+}
+
+#first-page-btn {
+    
+    padding: 13px 10px 10px 10px ;
+    color:white;
+    background-color: green;
+    border-radius: 10px;
+    border: hidden;
+    
+}
+
+#page-no2 {
+    display: none;
+    text-align: center;
+}
+
+#list-input-adder {
+    
+    text-align: left;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid green;
+    padding: 5px 0px 5px 0px;
+    font-size: 1rem;
+    color: #000000;
+}
+
+li {
+	list-style: none;
+	color: black;
+	text-transform: capitalize;
+	font-weight: 600;
+	border-bottom: 2px solid #ff0000;
+	border-radius: 5px;
+	margin-bottom: 5px;
+    transition: all 0.75s ease;
+    background-color:  rgba(0, 128, 0, 0.849);
+    padding-top: 3px; 
+}
+
+li:hover {
+	background: rgba(105, 105, 105, 0.671);
+}
+
+li > button {
+	
+	background: red;
+	border: none;
+	float: right;
+	color:black;
+	font-weight: 800;
+}
+
+
+.done {
+	background:  rgb(255, 0, 0)!important;
+	text-decoration: line-through;
+}
+
+.delete {
+	display: none;
+}
+
+
+#list-name-page-two {
+   
+    color: black;
+    font-size: 4em;
+    text-transform: capitalize;
+    text-decoration: underline;
+    
+}
+
+#list {
+  
+    display: table;
+    width: 22em;
+    padding: 10px;
+    margin: auto;
+
+}
+#hover-instructions{
+   
+    color: red;
+   
+}
+
+
